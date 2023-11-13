@@ -13,7 +13,7 @@ const Cart = (props) => {
     </ul>
   );
   return (
-    <Offcanvas>
+    <Offcanvas onClose={props.onClose}>
       <div className="cart-head">
         <h2>Sepetim</h2>
         <a href="#" className="cart-close" onClick={props.onClose}>
